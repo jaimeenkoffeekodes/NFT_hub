@@ -53,7 +53,7 @@ export default function Home() {
       <div className="grid grid-cols-1 mt-[70px] px-5 sm:px-[100px] lg:px-[150px] lg:grid-cols-2 lg:pt-20 ">
         <div className="">
           <p className="text-[var(--white-text)] text-[30px] font-bold">
-            High Quality NFT Collection
+            Jaimeen makavana
           </p>
           <p className="text-[var(--grey-text)] text-[18px] my-[23px]">
             A 890 piece custom Nerko&apos;s collection is joining the NFT space
