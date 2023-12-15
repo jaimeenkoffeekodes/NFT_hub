@@ -57,7 +57,7 @@ export default function Home() {
           </p>
           <p className="text-[var(--grey-text)] text-[18px] my-[23px]">
             A 890 piece custom Nerko&apos;s collection is joining the NFT space
-            on Opensea.
+            on Opensea.skcs
           </p>
           <ButtonGradient name="View in OPENSEA" />
           <div className="flex justify-start items-center gap-5">
