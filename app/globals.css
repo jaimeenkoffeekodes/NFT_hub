@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-back: #1f152b;
+  --white-text: #ffffff;
+  --grey-text: #b7b4bb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: var(--main-back);
+}
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+.linear-background {
+  background: linear-gradient(68deg, #2600fc 0%, #ff00ea 100%);
+}
+
+.gradient-color {
+  background: linear-gradient(68deg, #2600fc, #ff00ea);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of WebKit browsers */
+  color: transparent;
+}
